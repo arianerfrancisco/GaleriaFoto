@@ -1,10 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,700&family=Nunito:wght@700&family=Yellowtail&display=swap');
+
 *{
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;  
+}
+h1 {
+    font-family: "Poppins", sans-serif;
 }
 body{
-    background-color: #eee;
+    background-color: #FFEFD5;
 }
 header{
     height: 150px;
@@ -28,7 +33,7 @@ header h1{
 .gallery-items{
     width: 340px;
     height: 340px;
-    border: 10px solid #FFF;
+    border: 10px solid #FFFACD;
     box-shadow: 5px 5px 5px #0006;
     flex-grow: 1;
     transition: transform .5s linear;
